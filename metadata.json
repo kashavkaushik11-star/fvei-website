@@ -1,0 +1,6 @@
+{
+  "name": "Fakirchand Vidyapeeth Educational Institute",
+  "description": "Official institutional portal of Fakirchand Vidyapeeth Educational Institute. Offering NCTE approved B.Ed & BTC (D.El.Ed), PCI approved D.Pharma, B.Sc Home Science, and B.A. programs with online admissions and student services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
