@@ -150,12 +150,14 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isHindi }) => {
               </p>
               <div className="mt-4 pt-3 border-t border-stone-800 flex items-center justify-between text-xs">
                 <span className="text-amber-400 font-semibold">Coordinates: 28.6692° N, 77.4538° E</span>
-                <button
-                  onClick={() => alert("Opening navigation map directions to Fakirchand Vidyapeeth Campus.")}
+                <a
+                  href="https://share.google/oLM46PwkSkXJb9Uag"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-stone-300 hover:text-white underline cursor-pointer"
                 >
                   View Route Map →
-                </button>
+                </a>
               </div>
             </div>
           </div>
