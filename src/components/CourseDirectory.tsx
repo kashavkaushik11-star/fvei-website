@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BookOpen, Clock, Users, ArrowRight, Award, CheckCircle, FileText, Download } from 'lucide-react';
+import { Users, ArrowRight, Award, FileText, MessageCircle } from 'lucide-react';
 import { COURSES, Course } from '../data/instituteData';
 
 interface CourseDirectoryProps {
@@ -102,13 +102,17 @@ export const CourseDirectory: React.FC<CourseDirectoryProps> = ({
                   <p className="line-clamp-2">{course.eligibility}</p>
                 </div>
 
-                {/* Annual Fee Indicator */}
-                <div className="mt-4 pt-3 border-t border-stone-100 flex items-center justify-between text-xs">
-                  <span className="text-stone-500">{isHindi ? "वार्षिक शिक्षण शुल्क:" : "Annual Tuition Fee:"}</span>
-                  <span className="text-base font-extrabold text-stone-900 font-display">
-                    ₹{course.annualFee.toLocaleString('en-IN')}{" "}
-                    <span className="text-[10px] font-normal text-stone-400">/ yr</span>
-                  </span>
+                {/* WhatsApp Course Enquiry */}
+                <div className="mt-4 pt-3 border-t border-stone-100">
+                  <a
+                    href={`https://wa.me/918791357168?text=${encodeURIComponent(isHindi ? `नमस्ते, मुझे ${course.hindiName} में प्रवेश और फीस की जानकारी चाहिए।` : `Hello, I would like to know about admission and fees for ${course.name}.`)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full py-2.5 px-3 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-bold flex items-center justify-center gap-2 transition-colors shadow-sm"
+                  >
+                    <MessageCircle className="w-4 h-4" />
+                    <span>{isHindi ? "WhatsApp पर संपर्क करें" : "Contact on WhatsApp"}</span>
+                  </a>
                 </div>
               </div>
 
