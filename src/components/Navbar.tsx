@@ -6,7 +6,6 @@ import {
   BookOpen,
   GraduationCap,
   Bell,
-  Users,
   Building2,
   FileText,
   PhoneCall,
@@ -124,12 +123,12 @@ export const Navbar: React.FC<NavbarProps> = ({
             </div>
 
             <button
-              onClick={() => scrollTo('fee-section')}
+              onClick={() => scrollTo('courses')}
               className={`px-3 py-2 rounded-md transition-colors cursor-pointer ${
                 activeSection === 'fee-section' ? 'text-amber-400 bg-white/10 font-bold' : 'text-stone-200 hover:text-white hover:bg-white/5'
               }`}
             >
-              {isHindi ? "प्रवेश एवं शुल्क संरचना" : "Admissions & Fee"}
+              {isHindi ? "प्रवेश जानकारी" : "Admissions"}
             </button>
 
             <button
@@ -149,15 +148,6 @@ export const Navbar: React.FC<NavbarProps> = ({
               }`}
             >
               {isHindi ? "सुविधाएं व प्रयोगशालाएं" : "Facilities & Labs"}
-            </button>
-
-            <button
-              onClick={() => scrollTo('faculty')}
-              className={`px-3 py-2 rounded-md transition-colors cursor-pointer ${
-                activeSection === 'faculty' ? 'text-amber-400 bg-white/10 font-bold' : 'text-stone-200 hover:text-white hover:bg-white/5'
-              }`}
-            >
-              {isHindi ? "शिक्षक वर्ग" : "Faculty"}
             </button>
 
             <button
@@ -254,12 +244,6 @@ export const Navbar: React.FC<NavbarProps> = ({
             className="w-full text-left px-3 py-2 text-sm font-medium rounded-md hover:bg-stone-800 text-stone-200 hover:text-amber-300"
           >
             {isHindi ? "सुविधाएं व प्रयोगशालाएं (Labs & Campus)" : "Facilities & Laboratories"}
-          </button>
-          <button
-            onClick={() => scrollTo('faculty')}
-            className="w-full text-left px-3 py-2 text-sm font-medium rounded-md hover:bg-stone-800 text-stone-200 hover:text-amber-300"
-          >
-            {isHindi ? "शिक्षक वर्ग" : "Faculty"}
           </button>
           <button
             onClick={() => scrollTo('student-corner')}
