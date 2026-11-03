@@ -137,6 +137,19 @@ export const Footer: React.FC<FooterProps> = ({
             </ul>
           </div>
 
+          {/* Column 3: Our Other Websites */}
+          <div className="lg:col-span-2 space-y-3">
+            <h5 className="font-bold text-amber-400 uppercase tracking-wider text-xs border-b border-stone-800 pb-2">
+              Our Other Websites
+            </h5>
+            <ul className="space-y-2 text-stone-400">
+              <li><a href="https://dayanandlaw.devs.surf/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-300 transition-colors flex items-center gap-1"><ExternalLink className="w-3 h-3 text-stone-600" /><span>Dayanand Law</span></a></li>
+              <li><a href="https://studysharda.blogspot.com/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-300 transition-colors flex items-center gap-1"><ExternalLink className="w-3 h-3 text-stone-600" /><span>Sharda Study</span></a></li>
+              <li><a href="https://dscsupport.devs.surf/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-300 transition-colors flex items-center gap-1"><ExternalLink className="w-3 h-3 text-stone-600" /><span>DSC Support</span></a></li>
+              <li><a href="https://pcrepair.devs.surf/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-300 transition-colors flex items-center gap-1"><ExternalLink className="w-3 h-3 text-stone-600" /><span>PC Repair</span></a></li>
+            </ul>
+          </div>
+
           {/* Column 3: Quick Navigation & Statutory */}
           <div className="lg:col-span-2 space-y-3">
             <h5 className="font-bold text-amber-400 uppercase tracking-wider text-xs border-b border-stone-800 pb-2">
