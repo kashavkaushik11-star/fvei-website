@@ -6,10 +6,8 @@ import { AnnouncementTicker } from './components/AnnouncementTicker';
 import { Hero } from './components/Hero';
 import { AboutSection } from './components/AboutSection';
 import { CourseDirectory } from './components/CourseDirectory';
-import { FeeCalculator } from './components/FeeCalculator';
 import { NoticeBoardSection } from './components/NoticeBoardSection';
 import { FacilitiesShowcase } from './components/FacilitiesShowcase';
-import { FacultyDirectory } from './components/FacultyDirectory';
 import { StudentCorner } from './components/StudentCorner';
 import { GallerySection } from './components/GallerySection';
 import { ContactSection } from './components/ContactSection';
@@ -72,7 +70,7 @@ export default function App() {
           setAdmissionModalOpen(true);
         }}
         onOpenProspectus={() => setProspectusModalOpen(true)}
-        onScrollToFee={() => scrollToId('fee-section')}
+        onScrollToFee={() => scrollToId('courses')}
       />
 
       {/* 3. Primary Sticky Navigation */}
@@ -105,7 +103,7 @@ export default function App() {
           }}
           onOpenProspectus={() => setProspectusModalOpen(true)}
           onScrollToCourses={() => scrollToId('courses')}
-          onScrollToFee={() => scrollToId('fee-section')}
+          onScrollToFee={() => scrollToId('courses')}
           onScrollToFacilities={() => scrollToId('facilities')}
         />
 
@@ -122,12 +120,6 @@ export default function App() {
           onApplyForCourse={(course) => handleOpenAdmissionWithCourse(course)}
         />
 
-        {/* 8. Interactive Transparent Fee Structure & Concession Estimator */}
-        <FeeCalculator
-          isHindi={isHindi}
-          onApplyWithSelectedProgram={(courseId) => handleOpenAdmissionWithCourse(courseId)}
-        />
-
         {/* 9. Official Circulars & Notice Board */}
         <NoticeBoardSection
           isHindi={isHindi}
@@ -138,11 +130,6 @@ export default function App() {
         <FacilitiesShowcase
           isHindi={isHindi}
           onOpenGallery={() => scrollToId('gallery')}
-        />
-
-        {/* 11. Faculty Directory & Scholars */}
-        <FacultyDirectory
-          isHindi={isHindi}
         />
 
         {/* 12. Student Life, Anti-Ragging Cell & Alumni Accolades */}
