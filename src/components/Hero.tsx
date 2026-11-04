@@ -37,8 +37,12 @@ export const Hero: React.FC<HeroProps> = ({
       {/* Background imagery with academic atmosphere */}
       <div className="absolute inset-0 z-0 opacity-25">
         <img
-          src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=1920"
+          src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=65&w=1200"
           alt="Fakirchand Vidyapeeth Campus Architecture"
+          fetchPriority="high"
+          decoding="async"
+          width="1200"
+          height="800"
           className="w-full h-full object-cover object-center transform scale-105 filter brightness-90 contrast-110"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/80 to-stone-900/60" />
