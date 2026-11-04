@@ -98,7 +98,10 @@ export const NoticeBoardSection: React.FC<NoticeBoardSectionProps> = ({
               <div
                 key={notice.id}
                 onClick={() => onSelectNotice(notice)}
-                role="button"\n                tabIndex={0}\n                onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); onSelectNotice(notice); } }}\n                className="group bg-white p-5 rounded-xl border border-stone-200 hover:border-amber-500/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-800 shadow-sm hover:shadow-md transition-all flex flex-col md:flex-row items-start md:items-center justify-between gap-4 cursor-pointer"
+                role="button"
+                tabIndex={0}
+                onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); onSelectNotice(notice); } }}
+                className="group bg-white p-5 rounded-xl border border-stone-200 hover:border-amber-500/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-800 shadow-sm hover:shadow-md transition-all flex flex-col md:flex-row items-start md:items-center justify-between gap-4 cursor-pointer"
               >
                 <div className="flex items-start gap-4">
                   {/* Date badge */}
