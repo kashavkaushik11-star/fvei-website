@@ -78,18 +78,10 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ isHindi, onOpenProsp
           <div className="bg-white rounded-2xl border border-stone-200 p-6 sm:p-8 shadow-sm flex flex-col justify-between">
             <div>
               <div className="flex items-center gap-4 pb-6 border-b border-stone-100">
-                <img
-                  src={LEADERSHIP[1].image}
-                  alt={LEADERSHIP[1].name}
-                  className="w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover border-2 border-amber-600/60 shadow"
-                />
                 <div>
                   <span className="text-[11px] font-bold uppercase text-red-800 tracking-wider">
                     {LEADERSHIP[1].role}
                   </span>
-                  <h4 className="text-lg sm:text-xl font-bold text-stone-900 font-display">
-                    {isHindi ? LEADERSHIP[1].hindiName : LEADERSHIP[1].name}
-                  </h4>
                   <p className="text-xs text-stone-500 mt-0.5">{LEADERSHIP[1].title}</p>
                 </div>
               </div>
@@ -114,18 +106,10 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ isHindi, onOpenProsp
           <div className="bg-white rounded-2xl border border-stone-200 p-6 sm:p-8 shadow-sm flex flex-col justify-between">
             <div>
               <div className="flex items-center gap-4 pb-6 border-b border-stone-100">
-                <img
-                  src={LEADERSHIP[2].image}
-                  alt={LEADERSHIP[2].name}
-                  className="w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover border-2 border-amber-600/60 shadow"
-                />
                 <div>
                   <span className="text-[11px] font-bold uppercase text-red-800 tracking-wider">
                     {LEADERSHIP[2].role}
                   </span>
-                  <h4 className="text-lg sm:text-xl font-bold text-stone-900 font-display">
-                    {isHindi ? LEADERSHIP[2].hindiName : LEADERSHIP[2].name}
-                  </h4>
                   <p className="text-xs text-stone-500 mt-0.5">{LEADERSHIP[2].title}</p>
                 </div>
               </div>
