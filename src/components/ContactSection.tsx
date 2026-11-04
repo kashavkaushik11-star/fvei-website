@@ -18,7 +18,7 @@ interface ContactSectionProps {
 }
 
 export const ContactSection: React.FC<ContactSectionProps> = ({ isHindi }) => {
-  const [formSubmitted, setFormSubmitted] = useState(false);
+  const [formOpened, setFormOpened] = useState(false);
   const [activeFaq, setActiveFaq] = useState<number | null>(0);
   const [inquiry, setInquiry] = useState({
     name: '',
@@ -53,7 +53,17 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isHindi }) => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setFormSubmitted(true);
+    const message = [
+      'Admission enquiry - Fakirchand Vidyapeeth Educational Institute',
+      `Name: ${inquiry.name.trim()}`,
+      `Mobile: ${inquiry.phone.trim()}`,
+      `Email: ${inquiry.email.trim()}`,
+      `Course: ${inquiry.courseInterested}`,
+      `Message: ${inquiry.message.trim() || 'Not provided'}`,
+    ].join('\\n');
+    const whatsappUrl = `https://wa.me/918791357168?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+    setFormOpened(true);
   };
 
   return (
@@ -168,26 +178,15 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isHindi }) => {
               {isHindi ? "त्वरित प्रवेश पूछताछ फॉर्म (Inquiry Form)" : "Quick Admission Inquiry 2026-27"}
             </h3>
             <p className="text-xs text-stone-500 mt-1 mb-6">
-              Fill in your details to receive course brochures, fee waivers, and a callback from our senior admission counselor.
+              Fill in your details. WhatsApp will open with your enquiry; review it and press Send to contact the institute.
             </p>
 
-            {formSubmitted ? (
-              <div className="py-12 text-center space-y-3 bg-stone-50 rounded-xl border border-stone-200">
-                <CheckCircle2 className="w-12 h-12 text-emerald-600 mx-auto" />
-                <h4 className="text-base font-bold text-stone-900 font-display">
-                  Inquiry Received Successfully!
-                </h4>
-                <p className="text-xs text-stone-600 max-w-sm mx-auto">
-                  Thank you, <strong className="text-stone-800">{inquiry.name}</strong>. Our academic counseling cell will call you shortly on <span className="font-mono">{inquiry.phone}</span>.
-                </p>
-                <button
-                  onClick={() => setFormSubmitted(false)}
-                  className="mt-3 px-4 py-2 bg-stone-900 text-white text-xs font-bold rounded-lg cursor-pointer"
-                >
-                  Submit Another Inquiry
-                </button>
-              </div>
-            ) : (
+            {formOpened && (
+              <p className="mb-4 rounded-lg border border-emerald-200 bg-emerald-50 p-3 text-xs text-emerald-900" role="status">
+                WhatsApp खुलने पर अपना संदेश देखकर Send दबाएँ। Inquiry तभी संस्थान तक पहुँचेगी।
+              </p>
+            )}
+            <form onSubmit={handleSubmit} className="space-y-4 text-xs">
               <form onSubmit={handleSubmit} className="space-y-4 text-xs">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
@@ -273,7 +272,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isHindi }) => {
                     className="w-full py-3 bg-red-900 hover:bg-red-800 text-white rounded-lg font-bold text-xs flex items-center justify-center gap-2 shadow transition-colors cursor-pointer"
                   >
                     <Send className="w-4 h-4" />
-                    <span>Submit Inquiry & Request Callback</span>
+                    <span>Continue to WhatsApp & Send Inquiry</span>
                   </button>
                 </div>
               </form>
