@@ -52,6 +52,7 @@ export const NoticeBoardSection: React.FC<NoticeBoardSectionProps> = ({
             <Search className="w-4 h-4 text-stone-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
             <input
               type="text"
+              aria-label={isHindi ? "सूचना खोजें" : "Search notices"}
               placeholder={isHindi ? "सूचना खोजें (कीवर्ड, संदर्भ सं.)..." : "Search notices, circulars, dispatch no..."}
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
@@ -127,7 +128,7 @@ export const NoticeBoardSection: React.FC<NoticeBoardSectionProps> = ({
                         Ref: {notice.dispatchNo}
                       </span>
                       {notice.isNew && (
-                        <span className="bg-red-600 text-white text-[9px] font-extrabold px-1.5 py-0.2 rounded uppercase animate-pulse">
+                        <span className="bg-red-900 text-white text-[9px] font-extrabold px-1.5 py-0.2 rounded uppercase">
                           NEW
                         </span>
                       )}
