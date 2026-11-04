@@ -105,7 +105,7 @@ export const Footer: React.FC<FooterProps> = ({
             </h5>
             <ul className="space-y-1.5 text-stone-400">
               <li>
-                <button onClick={() => scrollTo('courses')} className="hover:text-amber-300 transition-colors flex items-center gap-1 cursor-pointer">
+                <button onClick={() => scrollTo('courses')} className="hover:text-amber-300 transition-colors flex items-center gap-1 min-h-[44px] py-2 cursor-pointer">
                   <ChevronRight className="w-3 h-3 text-stone-600" />
                   <span>B.Ed. (Bachelor of Education - NCTE)</span>
                 </button>
