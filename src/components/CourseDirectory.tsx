@@ -53,7 +53,7 @@ export const CourseDirectory: React.FC<CourseDirectoryProps> = ({
             <button
               key={tab.id}
               onClick={() => setSelectedDept(tab.id)}
-              className={`px-4 py-2 rounded-lg text-xs sm:text-sm font-semibold transition-all cursor-pointer ${
+              className={`px-4 py-2 min-h-[44px] rounded-lg text-xs sm:text-sm font-semibold transition-all cursor-pointer ${
                 selectedDept === tab.id
                   ? 'bg-red-900 text-white shadow-md'
                   : 'bg-white text-stone-700 hover:bg-stone-200/80 border border-stone-300'
@@ -103,7 +103,7 @@ export const CourseDirectory: React.FC<CourseDirectoryProps> = ({
                 </p>
                 <a
                   href={`/courses/${({ bed: 'bed-admission-meerut', btc: 'btc-del-ed-admission-meerut', dpharma: 'dpharma-admission-meerut', ba: 'ba-admission-meerut', 'bsc-homescience': 'bsc-home-science-admission-meerut' } as Record<string, string>)[course.id]}.html`}
-                  className="inline-flex mt-3 text-xs font-bold text-red-800 hover:text-red-950 underline underline-offset-4"
+                  className="inline-flex mt-3 min-h-[44px] items-center text-xs font-bold text-red-800 hover:text-red-950 underline underline-offset-4"
                 >
                   {isHindi ? "कोर्स और प्रवेश की पूरी जानकारी देखें →" : "View course & admission details →"}
                 </a>
@@ -122,7 +122,7 @@ export const CourseDirectory: React.FC<CourseDirectoryProps> = ({
                     href={`https://wa.me/918791357168?text=${encodeURIComponent(isHindi ? `नमस्ते, मुझे ${course.hindiName} में प्रवेश और फीस की जानकारी चाहिए।` : `Hello, I would like to know about admission and fees for ${course.name}.`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-full py-2.5 px-3 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-bold flex items-center justify-center gap-2 transition-colors shadow-sm"
+                    className="w-full min-h-[44px] py-2.5 px-3 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white text-sm font-bold flex items-center justify-center gap-2 transition-colors shadow-sm"
                   >
                     <MessageCircle className="w-4 h-4" />
                     <span>{isHindi ? "WhatsApp पर संपर्क करें" : "Contact on WhatsApp"}</span>
@@ -134,7 +134,7 @@ export const CourseDirectory: React.FC<CourseDirectoryProps> = ({
               <div className="px-6 py-4 bg-stone-50 border-t border-stone-200 flex items-center gap-2">
                 <button
                   onClick={() => onSelectCourseSyllabus(course)}
-                  className="flex-1 py-2 px-3 rounded-lg border border-stone-300 hover:border-stone-400 bg-white hover:bg-stone-100 text-stone-700 text-xs font-semibold flex items-center justify-center gap-1.5 transition-colors cursor-pointer"
+                  className="flex-1 min-h-[44px] py-2 px-3 rounded-lg border border-stone-300 hover:border-stone-400 bg-white hover:bg-stone-100 text-stone-700 text-xs font-semibold flex items-center justify-center gap-1.5 transition-colors cursor-pointer"
                 >
                   <FileText className="w-3.5 h-3.5 text-stone-500" />
                   <span>{isHindi ? "पाठ्यक्रम (Syllabus)" : "View Syllabus"}</span>
