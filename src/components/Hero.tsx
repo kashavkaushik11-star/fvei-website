@@ -206,7 +206,7 @@ export const Hero: React.FC<HeroProps> = ({
             </div>
             <h2 className="text-sm font-bold text-stone-100 group-hover:text-amber-400 transition-colors">
               {isHindi ? "प्रवेश पोर्टल २०२६" : "Admissions Portal 2026"}
-            </h3>
+            </h2>
             <p className="text-xs text-stone-400 mt-1">
               {isHindi ? "B.Ed, BTC, D.Pharma, B.A. व गृह विज्ञान में सीधा आवेदन" : "Direct registration, seat matrix & eligibility criteria"}
             </p>
@@ -214,14 +214,14 @@ export const Hero: React.FC<HeroProps> = ({
 
           <div
             onClick={onScrollToCourses}
-            role="button" tabIndex={0} onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); onOpenAdmissionModal(); } }} className="group min-h-[44px] bg-stone-800/60 hover:bg-stone-800/90 border border-stone-700/60 hover:border-amber-500/50 p-4 rounded-xl transition-all cursor-pointer shadow-sm hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
+            role="button" tabIndex={0} onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); onScrollToCourses(); } }} className="group min-h-[44px] bg-stone-800/60 hover:bg-stone-800/90 border border-stone-700/60 hover:border-amber-500/50 p-4 rounded-xl transition-all cursor-pointer shadow-sm hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
           >
             <div className="w-10 h-10 rounded-lg bg-red-500/10 text-red-400 flex items-center justify-center mb-3 group-hover:bg-red-700 group-hover:text-white transition-colors">
               <BookOpen className="w-5 h-5" />
             </div>
             <h2 className="text-sm font-bold text-stone-100 group-hover:text-amber-400 transition-colors">
               {isHindi ? "पाठ्यक्रम एवं विषय सूची" : "Curriculum & Syllabus"}
-            </h3>
+            </h2>
             <p className="text-xs text-stone-400 mt-1">
               {isHindi ? "सेमेस्टर वार विषय सूची व पीडीएफ डाउनलोड" : "Detailed semester modules & printable curriculum PDFs"}
             </p>
@@ -229,14 +229,14 @@ export const Hero: React.FC<HeroProps> = ({
 
           <div
             onClick={onScrollToFee}
-            role="button" tabIndex={0} onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); onOpenAdmissionModal(); } }} className="group min-h-[44px] bg-stone-800/60 hover:bg-stone-800/90 border border-stone-700/60 hover:border-amber-500/50 p-4 rounded-xl transition-all cursor-pointer shadow-sm hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
+            role="button" tabIndex={0} onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); onScrollToFee(); } }} className="group min-h-[44px] bg-stone-800/60 hover:bg-stone-800/90 border border-stone-700/60 hover:border-amber-500/50 p-4 rounded-xl transition-all cursor-pointer shadow-sm hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
           >
             <div className="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center mb-3 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
               <Award className="w-5 h-5" />
             </div>
             <h2 className="text-sm font-bold text-stone-100 group-hover:text-amber-400 transition-colors">
               {isHindi ? "शुल्क कैलकुलेटर व छात्रवृत्ति" : "Fee & Scholarship Estimator"}
-            </h3>
+            </h2>
             <p className="text-xs text-stone-400 mt-1">
               {isHindi ? "पारदर्शी शुल्क, श्रेणी छूट एवं किस्तवार विवरण" : "Category concession and transparent installment schedule"}
             </p>
@@ -244,14 +244,14 @@ export const Hero: React.FC<HeroProps> = ({
 
           <div
             onClick={onScrollToFacilities}
-            role="button" tabIndex={0} onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); onOpenAdmissionModal(); } }} className="group min-h-[44px] bg-stone-800/60 hover:bg-stone-800/90 border border-stone-700/60 hover:border-amber-500/50 p-4 rounded-xl transition-all cursor-pointer shadow-sm hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
+            role="button" tabIndex={0} onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); onScrollToFacilities(); } }} className="group min-h-[44px] bg-stone-800/60 hover:bg-stone-800/90 border border-stone-700/60 hover:border-amber-500/50 p-4 rounded-xl transition-all cursor-pointer shadow-sm hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
           >
             <div className="w-10 h-10 rounded-lg bg-blue-500/10 text-blue-400 flex items-center justify-center mb-3 group-hover:bg-blue-600 group-hover:text-white transition-colors">
               <Building2 className="w-5 h-5" />
             </div>
             <h2 className="text-sm font-bold text-stone-100 group-hover:text-amber-400 transition-colors">
               {isHindi ? "फार्मेसी लैब व शिक्षण केंद्र" : "Pharmacy & Teaching Labs"}
-            </h3>
+            </h2>
             <p className="text-xs text-stone-400 mt-1">
               {isHindi ? "आधुनिक लैब, गृह विज्ञान पाकशाला एवं सरस्वती पुस्तकालय" : "Ultra-modern labs, nutrition kitchens & library tour"}
             </p>
