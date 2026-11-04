@@ -187,7 +187,6 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isHindi }) => {
               </p>
             )}
             <form onSubmit={handleSubmit} className="space-y-4 text-xs">
-              <form onSubmit={handleSubmit} className="space-y-4 text-xs">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label className="block font-semibold text-stone-700 mb-1">
