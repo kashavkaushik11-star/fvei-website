@@ -36,6 +36,8 @@ export const FacilitiesShowcase: React.FC<FacilitiesShowcaseProps> = ({ isHindi,
               <img
                 src={activeFacility.image}
                 alt={activeFacility.title}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-transparent to-transparent"></div>
