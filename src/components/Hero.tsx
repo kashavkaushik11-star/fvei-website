@@ -199,12 +199,12 @@ export const Hero: React.FC<HeroProps> = ({
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-12 pt-8 border-t border-stone-800">
           <div
             onClick={onOpenAdmissionModal}
-            className="group bg-stone-800/60 hover:bg-stone-800/90 border border-stone-700/60 hover:border-amber-500/50 p-4 rounded-xl transition-all cursor-pointer shadow-sm hover:shadow-md"
+            role="button" tabIndex={0} onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); onOpenAdmissionModal(); } }} className="group min-h-[44px] bg-stone-800/60 hover:bg-stone-800/90 border border-stone-700/60 hover:border-amber-500/50 p-4 rounded-xl transition-all cursor-pointer shadow-sm hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
           >
             <div className="w-10 h-10 rounded-lg bg-amber-500/10 text-amber-400 flex items-center justify-center mb-3 group-hover:bg-amber-500 group-hover:text-stone-950 transition-colors">
               <GraduationCap className="w-5 h-5" />
             </div>
-            <h3 className="text-sm font-bold text-stone-100 group-hover:text-amber-400 transition-colors">
+            <h2 className="text-sm font-bold text-stone-100 group-hover:text-amber-400 transition-colors">
               {isHindi ? "प्रवेश पोर्टल २०२६" : "Admissions Portal 2026"}
             </h3>
             <p className="text-xs text-stone-400 mt-1">
@@ -214,12 +214,12 @@ export const Hero: React.FC<HeroProps> = ({
 
           <div
             onClick={onScrollToCourses}
-            className="group bg-stone-800/60 hover:bg-stone-800/90 border border-stone-700/60 hover:border-amber-500/50 p-4 rounded-xl transition-all cursor-pointer shadow-sm hover:shadow-md"
+            role="button" tabIndex={0} onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); onOpenAdmissionModal(); } }} className="group min-h-[44px] bg-stone-800/60 hover:bg-stone-800/90 border border-stone-700/60 hover:border-amber-500/50 p-4 rounded-xl transition-all cursor-pointer shadow-sm hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
           >
             <div className="w-10 h-10 rounded-lg bg-red-500/10 text-red-400 flex items-center justify-center mb-3 group-hover:bg-red-700 group-hover:text-white transition-colors">
               <BookOpen className="w-5 h-5" />
             </div>
-            <h3 className="text-sm font-bold text-stone-100 group-hover:text-amber-400 transition-colors">
+            <h2 className="text-sm font-bold text-stone-100 group-hover:text-amber-400 transition-colors">
               {isHindi ? "पाठ्यक्रम एवं विषय सूची" : "Curriculum & Syllabus"}
             </h3>
             <p className="text-xs text-stone-400 mt-1">
@@ -229,12 +229,12 @@ export const Hero: React.FC<HeroProps> = ({
 
           <div
             onClick={onScrollToFee}
-            className="group bg-stone-800/60 hover:bg-stone-800/90 border border-stone-700/60 hover:border-amber-500/50 p-4 rounded-xl transition-all cursor-pointer shadow-sm hover:shadow-md"
+            role="button" tabIndex={0} onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); onOpenAdmissionModal(); } }} className="group min-h-[44px] bg-stone-800/60 hover:bg-stone-800/90 border border-stone-700/60 hover:border-amber-500/50 p-4 rounded-xl transition-all cursor-pointer shadow-sm hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
           >
             <div className="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center mb-3 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
               <Award className="w-5 h-5" />
             </div>
-            <h3 className="text-sm font-bold text-stone-100 group-hover:text-amber-400 transition-colors">
+            <h2 className="text-sm font-bold text-stone-100 group-hover:text-amber-400 transition-colors">
               {isHindi ? "शुल्क कैलकुलेटर व छात्रवृत्ति" : "Fee & Scholarship Estimator"}
             </h3>
             <p className="text-xs text-stone-400 mt-1">
@@ -244,12 +244,12 @@ export const Hero: React.FC<HeroProps> = ({
 
           <div
             onClick={onScrollToFacilities}
-            className="group bg-stone-800/60 hover:bg-stone-800/90 border border-stone-700/60 hover:border-amber-500/50 p-4 rounded-xl transition-all cursor-pointer shadow-sm hover:shadow-md"
+            role="button" tabIndex={0} onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); onOpenAdmissionModal(); } }} className="group min-h-[44px] bg-stone-800/60 hover:bg-stone-800/90 border border-stone-700/60 hover:border-amber-500/50 p-4 rounded-xl transition-all cursor-pointer shadow-sm hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
           >
             <div className="w-10 h-10 rounded-lg bg-blue-500/10 text-blue-400 flex items-center justify-center mb-3 group-hover:bg-blue-600 group-hover:text-white transition-colors">
               <Building2 className="w-5 h-5" />
             </div>
-            <h3 className="text-sm font-bold text-stone-100 group-hover:text-amber-400 transition-colors">
+            <h2 className="text-sm font-bold text-stone-100 group-hover:text-amber-400 transition-colors">
               {isHindi ? "फार्मेसी लैब व शिक्षण केंद्र" : "Pharmacy & Teaching Labs"}
             </h3>
             <p className="text-xs text-stone-400 mt-1">
