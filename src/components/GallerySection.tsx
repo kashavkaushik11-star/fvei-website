@@ -80,6 +80,8 @@ export const GallerySection: React.FC<GallerySectionProps> = ({ isHindi }) => {
               <img
                 src={item.imageUrl}
                 alt={item.title}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 filter brightness-95"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-stone-950/90 via-stone-950/30 to-transparent opacity-80 group-hover:opacity-95 transition-opacity" />
@@ -138,6 +140,7 @@ export const GallerySection: React.FC<GallerySectionProps> = ({ isHindi }) => {
             <img
               src={GALLERY_ITEMS[lightboxIndex].imageUrl}
               alt={GALLERY_ITEMS[lightboxIndex].title}
+              decoding="async"
               className="max-h-[70vh] w-auto object-contain rounded-lg shadow-2xl"
             />
             <div className="text-center text-white mt-4 max-w-xl">
