@@ -275,7 +275,6 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isHindi }) => {
                   </button>
                 </div>
               </form>
-            )}
           </div>
         </div>
 
