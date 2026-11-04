@@ -60,7 +60,7 @@ export const INSTITUTE_DETAILS = {
   affiliation: "Affiliated to State University, SCERT & Board of Technical Education",
   aisheCode: "C-41982",
   collegeCode: "FCV-047",
-  address: "Sharda Group of Institutions, Village Shoulda, Garh Road, Meerut, Uttar Pradesh - 250106",
+  address: "Village Shoulda, Garh Road, Meerut, Uttar Pradesh - 250106",
   phone: "8791357168",
   formattedPhone: "+91 8791357168",
   tollFree: "8791357168",
