@@ -35,7 +35,7 @@ export const Hero: React.FC<HeroProps> = ({
   return (
     <div id="hero" className="relative bg-stone-900 text-white overflow-hidden">
       {/* Background imagery with academic atmosphere */}
-      <div className="absolute inset-0 z-0 opacity-25">
+      <div className="absolute inset-0 z-0 opacity-25 hidden md:block">
         <img
           src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=35&w=480"
           srcSet="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=35&w=480 480w, https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=40&w=768 768w, https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=45&w=1100 1100w"
