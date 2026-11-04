@@ -244,7 +244,7 @@ export const LEADERSHIP = [
     title: "Visionary Educationist & Social Reformer",
     hindiName: "स्व. पं. फ़कीरचंद जी",
     quote: "True education is the illumination that enables youth to serve society, lead with moral character, and spread knowledge to every home.",
-    image: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&q=65&w=320"
+    image: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&q=55&w=240"
   },
   {
     role: "Chairman / President's Desk",
@@ -252,7 +252,7 @@ export const LEADERSHIP = [
     title: "M.A., M.Ed., Ph.D., Eminent Educationist & Society President",
     hindiName: "डॉ. हरीश चंद्र शर्मा",
     quote: "At Fakirchand Vidyapeeth, we take immense pride in shaping skilled teachers, certified healthcare pharmacists, and accomplished scholars who transform rural and urban communities.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=65&w=320"
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=55&w=240"
   },
   {
     role: "Principal's Desk",
@@ -260,7 +260,7 @@ export const LEADERSHIP = [
     title: "M.Sc., M.Ed., Ph.D. in Education, Gold Medalist",
     hindiName: "प्रो. (डॉ.) वंदना मिश्रा",
     quote: "Our institution offers a harmonious blend of teacher education, pharmaceutical training, home science laboratories, and liberal arts supported by modern technology and dedicated mentoring.",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=65&w=320"
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=55&w=240"
   }
 ];
 
@@ -274,7 +274,7 @@ export const FACULTY: FacultyMember[] = [
     experience: '22+ Years',
     specialization: 'Educational Pedagogy, Curriculum Design & Child Psychology',
     email: 'kahav.kaushikk11@gmail.com',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=65&w=240'
+    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=55&w=200'
   },
   {
     id: 'f-02',
@@ -285,7 +285,7 @@ export const FACULTY: FacultyMember[] = [
     experience: '19+ Years',
     specialization: 'Elementary Education, Micro-Teaching & Action Research',
     email: 'kahav.kaushikk11@gmail.com',
-    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=65&w=240'
+    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=55&w=200'
   },
   {
     id: 'f-03',
@@ -296,7 +296,7 @@ export const FACULTY: FacultyMember[] = [
     experience: '14+ Years',
     specialization: 'Drug Formulation, Clinical Pharmacology & Hospital Pharmacy',
     email: 'kahav.kaushikk11@gmail.com',
-    image: 'https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=65&w=240'
+    image: 'https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=55&w=200'
   },
   {
     id: 'f-04',
@@ -307,7 +307,7 @@ export const FACULTY: FacultyMember[] = [
     experience: '16+ Years',
     specialization: 'Clinical Dietetics, Therapeutic Nutrition & Textile Science',
     email: 'kahav.kaushikk11@gmail.com',
-    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=65&w=240'
+    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=55&w=200'
   },
   {
     id: 'f-05',
@@ -318,7 +318,7 @@ export const FACULTY: FacultyMember[] = [
     experience: '17+ Years',
     specialization: 'Modern Hindi Literature, Indian Political System & Public Policy',
     email: 'kahav.kaushikk11@gmail.com',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=65&w=240'
+    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=55&w=200'
   },
   {
     id: 'f-06',
@@ -329,7 +329,7 @@ export const FACULTY: FacultyMember[] = [
     experience: '8+ Years',
     specialization: 'Pharmaceutical Analysis, Pharmacognosy & Quality Control',
     email: 'kahav.kaushikk11@gmail.com',
-    image: 'https://images.unsplash.com/photo-1580894732444-8ecded7900cd?auto=format&fit=crop&q=65&w=240'
+    image: 'https://images.unsplash.com/photo-1580894732444-8ecded7900cd?auto=format&fit=crop&q=55&w=200'
   },
   {
     id: 'f-07',
@@ -340,7 +340,7 @@ export const FACULTY: FacultyMember[] = [
     experience: '10+ Years',
     specialization: 'Early Childhood Education, Inclusive Pedagogy & Counseling',
     email: 'kahav.kaushikk11@gmail.com',
-    image: 'https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&q=65&w=240'
+    image: 'https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&q=55&w=200'
   },
   {
     id: 'f-08',
@@ -351,7 +351,7 @@ export const FACULTY: FacultyMember[] = [
     experience: '9+ Years',
     specialization: 'Apparel Designing, Fabric Printing & Resource Management',
     email: 'kahav.kaushikk11@gmail.com',
-    image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=65&w=240'
+    image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=55&w=200'
   }
 ];
 
@@ -362,7 +362,7 @@ export const FACILITIES = [
     hindiTitle: 'मॉडल शिक्षण एवं शैक्षिक तकनीकी प्रयोगशाला',
     description: 'Equipped with smart interactive panels, simulation cameras, audio-visual instruction sets, and teaching-learning materials (TLM) for B.Ed and BTC pupil teachers.',
     stats: 'Seating for 120+ | Interactive 4K Panels | Video Recording Set',
-    image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=60&w=640'
   },
   {
     id: 'fac-2',
@@ -370,7 +370,7 @@ export const FACILITIES = [
     hindiTitle: 'पीसीआई अनुमोदित फार्मास्युटिक्स एवं फार्माकोग्नोसी लैब',
     description: 'Ultra-modern laboratories with distillation units, tablet punching machines, analytical digital balances, microscopes, and chemical testing equipment for D.Pharma practicals.',
     stats: '4 Specialised Labs | Tablet Machine | Analytical Balances',
-    image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=60&w=640'
   },
   {
     id: 'fac-3',
@@ -378,7 +378,7 @@ export const FACILITIES = [
     hindiTitle: 'गृह विज्ञान खाद्य, पोषण एवं पाककला प्रयोगशाला',
     description: 'Modern modular kitchen with commercial baking ovens, calorimeters, food preservation units, and diet formulation desks for practical food science training.',
     stats: 'Modular Kitchen | Baking Ovens | Food Testing Equipment',
-    image: 'https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=60&w=640'
   },
   {
     id: 'fac-4',
@@ -386,7 +386,7 @@ export const FACILITIES = [
     hindiTitle: 'केंद्रीय सरस्वती पुस्तकालय एवं ई-संसाधन केंद्र',
     description: 'Over 38,000 reference volumes, educational encyclopedias, pharmacy pharmacopoeias, home science treatises, journals, and digital computer study stations.',
     stats: '38,000+ Books | National Journals | E-Library Stations',
-    image: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&q=60&w=640'
   },
   {
     id: 'fac-5',
@@ -394,7 +394,7 @@ export const FACILITIES = [
     hindiTitle: 'मनोविज्ञान परीक्षण एवं मार्गदर्शन परामर्श लैब',
     description: 'Standardized psychological test batteries, intelligence tests, aptitude apparatus, and personal counseling rooms for teacher trainees and student mental wellness.',
     stats: '150+ Standardized Tests | Individual Counseling Booths',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=60&w=640'
   },
   {
     id: 'fac-6',
@@ -402,7 +402,7 @@ export const FACILITIES = [
     hindiTitle: 'क्रीड़ा संकुल, व्यायामशाला एवं पृथक छात्रावास',
     description: 'Sprawling athletic turf for track and field, volleyball, badminton, and yoga pavilion. Separate residential hostels for boys and girls with 24x7 security, RO water, and nutritious meals.',
     stats: '4.5 Acre Sports Turf | Separate Boys & Girls Hostels',
-    image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=60&w=640'
   }
 ];
 
@@ -411,42 +411,42 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'g-1',
     title: 'B.Ed & BTC Micro-Teaching Workshop in Action',
     category: 'Teaching Lab',
-    imageUrl: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=800',
+    imageUrl: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=60&w=640',
     caption: 'Pupil teachers demonstrating innovative teaching-learning materials and classroom lesson delivery.'
   },
   {
     id: 'g-2',
     title: 'D.Pharma Pharmaceutical Formulation Practical',
     category: 'Pharmacy Lab',
-    imageUrl: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=800',
+    imageUrl: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=60&w=640',
     caption: 'Students compounding syrups, tablets, and analyzing active drug ingredients under expert pharmacist supervision.'
   },
   {
     id: 'g-3',
     title: 'B.Sc Home Science Food & Nutrition Exhibition',
     category: 'Home Science',
-    imageUrl: 'https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=80&w=800',
+    imageUrl: 'https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=60&w=640',
     caption: 'Students presenting therapeutic diets, bakery specialties, and low-cost nutritious meal plans.'
   },
   {
     id: 'g-4',
     title: 'Annual Degree & Certificate Convocation Ceremony',
     category: 'Campus',
-    imageUrl: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=800',
+    imageUrl: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=60&w=640',
     caption: 'Dignitaries conferring degrees and merit certificates to B.Ed, BTC, D.Pharma, B.A. and Home Science graduates.'
   },
   {
     id: 'g-5',
     title: 'Annual Inter-College Cultural & Drama Festival',
     category: 'Cultural',
-    imageUrl: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80&w=800',
+    imageUrl: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=60&w=640',
     caption: 'Folk dance, educational street play (Nukkad Natak), and youth celebration in the central auditorium.'
   },
   {
     id: 'g-6',
     title: 'Annual Athletics Meet & Yoga Championship',
     category: 'Sports',
-    imageUrl: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&q=80&w=800',
+    imageUrl: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&q=60&w=640',
     caption: 'Vidyapeeth students competing in athletics, volleyball tournaments, and yoga demonstrations.'
   }
 ];
@@ -457,21 +457,21 @@ export const TESTIMONIALS = [
     batch: "B.Ed. Batch of 2022",
     designation: "Government TGT Teacher (Basic Shiksha Parishad)",
     quote: "The rigorous practice teaching and special CTET coaching sessions at Fakirchand Vidyapeeth helped me clear both CTET and Super TET on my first attempt. Today, I am proudly serving as a government teacher.",
-    avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=60&w=120"
+    avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=50&w=96"
   },
   {
     name: "Mohit Verma",
     batch: "D.Pharma Batch of 2023",
     designation: "Registered Pharmacist & Medical Store Owner",
     quote: "The modern pharmacy labs and practical training under Dr. Vivek Sharma gave me total confidence in pharmaceutical formulation and dispensing. The institute facilitated my state pharmacy council registration smoothly.",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=60&w=120"
+    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=50&w=96"
   },
   {
     name: "Pooja Kashyap",
     batch: "B.Sc. Home Science Batch of 2024",
     designation: "Clinical Nutritionist at District Healthcare Hospital",
     quote: "The advanced food science laboratory, bakery training, and community nutrition camps in nearby villages equipped me with real clinical knowledge. Fakirchand Vidyapeeth is truly the best institute in the region.",
-    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=60&w=120"
+    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=50&w=96"
   }
 ];
 
