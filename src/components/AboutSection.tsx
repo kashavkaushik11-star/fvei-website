@@ -82,7 +82,6 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ isHindi, onOpenProsp
                   <span className="text-[11px] font-bold uppercase text-red-800 tracking-wider">
                     {LEADERSHIP[1].role}
                   </span>
-                  <p className="text-xs text-stone-500 mt-0.5">{LEADERSHIP[1].title}</p>
                 </div>
               </div>
 
@@ -110,7 +109,6 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ isHindi, onOpenProsp
                   <span className="text-[11px] font-bold uppercase text-red-800 tracking-wider">
                     {LEADERSHIP[2].role}
                   </span>
-                  <p className="text-xs text-stone-500 mt-0.5">{LEADERSHIP[2].title}</p>
                 </div>
               </div>
 
