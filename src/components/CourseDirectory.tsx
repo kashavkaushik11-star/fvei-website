@@ -36,6 +36,9 @@ export const CourseDirectory: React.FC<CourseDirectoryProps> = ({
               ? "NCTE, PCI, SCERT एवं राज्य विश्वविद्यालय द्वारा अनुमोदित बी.एड., बीटीसी (D.El.Ed), डी.फार्मा, बी.ए. एवं बी.एससी. गृह विज्ञान पाठ्यक्रम।"
               : "Quality programs designed under NCTE, PCI, and University standards with dedicated laboratories and intensive practical internships."}
           </p>
+          <p className="text-stone-600 text-sm leading-6 mt-4">
+            Fakirchand Vidyapeeth Educational Institute, Meerut में B.Ed., D.El.Ed. (BTC), D.Pharma, B.A. और B.Sc. Home Science जैसे पाठ्यक्रमों की जानकारी, पात्रता, अवधि और प्रवेश संबंधी पूछताछ के लिए नीचे संबंधित कोर्स देखें।
+          </p>
         </div>
 
         {/* Department Filter Buttons */}
@@ -64,8 +67,9 @@ export const CourseDirectory: React.FC<CourseDirectoryProps> = ({
         {/* Course Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredCourses.map((course) => (
-            <div
+            <article
               key={course.id}
+              id={`course-${course.id}`}
               className="bg-white rounded-xl border border-stone-200 shadow-sm hover:shadow-lg transition-all flex flex-col justify-between overflow-hidden group hover:border-amber-500/60"
             >
               <div className="p-6">
@@ -93,6 +97,10 @@ export const CourseDirectory: React.FC<CourseDirectoryProps> = ({
                   <Award className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
                   <span className="font-medium">{course.highlight}</span>
                 </div>
+
+                <p className="mt-3 text-sm leading-6 text-stone-600">
+                  {course.description}
+                </p>
 
                 {/* Eligibility */}
                 <div className="mt-3.5 space-y-1.5 text-xs text-stone-600">
@@ -134,7 +142,7 @@ export const CourseDirectory: React.FC<CourseDirectoryProps> = ({
                   <ArrowRight className="w-3.5 h-3.5" />
                 </button>
               </div>
-            </div>
+            </article>
           ))}
         </div>
       </div>
