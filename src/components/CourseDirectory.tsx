@@ -142,7 +142,7 @@ export const CourseDirectory: React.FC<CourseDirectoryProps> = ({
 
                 <button
                   onClick={() => onApplyForCourse(course)}
-                  className="flex-1 py-2 px-3 rounded-lg bg-red-800 hover:bg-red-700 text-white text-xs font-bold flex items-center justify-center gap-1.5 transition-colors shadow-sm cursor-pointer"
+                  className="flex-1 min-h-[44px] py-2 px-3 rounded-lg bg-red-800 hover:bg-red-700 text-white text-xs font-bold flex items-center justify-center gap-1.5 transition-colors shadow-sm cursor-pointer"
                 >
                   <span>{isHindi ? "आवेदन करें" : "Apply Now"}</span>
                   <ArrowRight className="w-3.5 h-3.5" />
