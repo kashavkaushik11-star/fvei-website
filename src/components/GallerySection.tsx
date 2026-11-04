@@ -91,9 +91,9 @@ export const GallerySection: React.FC<GallerySectionProps> = ({ isHindi }) => {
               </div>
 
               <div className="absolute bottom-3 left-3 right-3 text-white">
-                <h4 className="text-sm font-bold font-display group-hover:text-amber-300 transition-colors">
+                <h3 className="text-sm font-bold font-display group-hover:text-amber-300 transition-colors">
                   {item.title}
-                </h4>
+                </h3>
                 <p className="text-[11px] text-stone-300 line-clamp-1 mt-0.5">
                   {item.caption}
                 </p>
