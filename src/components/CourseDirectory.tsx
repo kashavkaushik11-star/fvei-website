@@ -101,6 +101,12 @@ export const CourseDirectory: React.FC<CourseDirectoryProps> = ({
                 <p className="mt-3 text-sm leading-6 text-stone-600">
                   {course.description}
                 </p>
+                <a
+                  href={`/courses/${({ bed: 'bed-admission-meerut', btc: 'btc-del-ed-admission-meerut', dpharma: 'dpharma-admission-meerut', ba: 'ba-admission-meerut', 'bsc-homescience': 'bsc-home-science-admission-meerut' } as Record<string, string>)[course.id]}.html`}
+                  className="inline-flex mt-3 text-xs font-bold text-red-800 hover:text-red-950 underline underline-offset-4"
+                >
+                  {isHindi ? "कोर्स और प्रवेश की पूरी जानकारी देखें →" : "View course & admission details →"}
+                </a>
 
                 {/* Eligibility */}
                 <div className="mt-3.5 space-y-1.5 text-xs text-stone-600">
