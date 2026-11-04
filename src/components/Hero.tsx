@@ -37,8 +37,8 @@ export const Hero: React.FC<HeroProps> = ({
       {/* Background imagery with academic atmosphere */}
       <div className="absolute inset-0 z-0 opacity-25">
         <img
-          src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=45&w=640"
-          srcSet="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=45&w=480 480w, https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=45&w=768 768w, https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=50&w=1100 1100w"
+          src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=35&w=480"
+          srcSet="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=35&w=480 480w, https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=40&w=768 768w, https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=45&w=1100 1100w"
           sizes="100vw"
           loading="eager"
           alt="Fakirchand Vidyapeeth Campus Architecture"
