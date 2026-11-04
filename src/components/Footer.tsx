@@ -33,7 +33,7 @@ export const Footer: React.FC<FooterProps> = ({
   };
 
   return (
-    <footer className="bg-stone-950 text-stone-300 text-xs border-t-2 border-red-900">
+    <footer className="bg-stone-950 text-stone-200 text-xs border-t-2 border-red-900">
       {/* Top Banner with Motto & Approvals */}
       <div className="bg-red-950/80 border-b border-red-900/60 py-6 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
@@ -87,11 +87,11 @@ export const Footer: React.FC<FooterProps> = ({
               </div>
             </div>
 
-            <p className="text-stone-400 leading-relaxed font-serif-body text-[11px]">
+            <p className="text-stone-300 leading-relaxed font-serif-body text-xs">
               Fakirchand Vidyapeeth Educational Institute is a recognized center of excellence approved by NCTE and PCI. Dedicated to preparing certified educators, healthcare pharmacists, nutritional scientists, and humane scholars with unyielding integrity.
             </p>
 
-            <div className="pt-2 text-[11px] text-stone-400 space-y-1">
+            <div className="pt-2 text-xs text-stone-300 space-y-1">
               <div><strong>AISHE Code:</strong> <span className="text-stone-200 font-mono">{INSTITUTE_DETAILS.aisheCode}</span></div>
               <div><strong>Affiliation Code:</strong> <span className="text-stone-200 font-mono">{INSTITUTE_DETAILS.collegeCode}</span></div>
               <div><strong>NAAC Grade:</strong> <span className="text-amber-400 font-bold">'A' Accredited</span></div>
@@ -103,7 +103,7 @@ export const Footer: React.FC<FooterProps> = ({
             <h5 className="font-bold text-amber-400 uppercase tracking-wider text-xs border-b border-stone-800 pb-2">
               Academic Programs
             </h5>
-            <ul className="space-y-1.5 text-stone-400">
+            <ul className="space-y-1.5 text-stone-300">
               <li>
                 <button onClick={() => scrollTo('courses')} className="hover:text-amber-300 transition-colors flex items-center gap-1 min-h-[44px] py-2 cursor-pointer">
                   <ChevronRight className="w-3 h-3 text-stone-600" />
@@ -111,25 +111,25 @@ export const Footer: React.FC<FooterProps> = ({
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollTo('courses')} className="hover:text-amber-300 transition-colors flex items-center gap-1 cursor-pointer">
+                <button onClick={() => scrollTo('courses')} className="hover:text-amber-300 transition-colors flex items-center gap-1 min-h-[44px] py-2 cursor-pointer">
                   <ChevronRight className="w-3 h-3 text-stone-600" />
                   <span>BTC / D.El.Ed. (२-वर्षीय डिप्लोमा)</span>
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollTo('courses')} className="hover:text-amber-300 transition-colors flex items-center gap-1 cursor-pointer">
+                <button onClick={() => scrollTo('courses')} className="hover:text-amber-300 transition-colors flex items-center gap-1 min-h-[44px] py-2 cursor-pointer">
                   <ChevronRight className="w-3 h-3 text-stone-600" />
                   <span>D.Pharma (Pharmacy - PCI Approved)</span>
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollTo('courses')} className="hover:text-amber-300 transition-colors flex items-center gap-1 cursor-pointer">
+                <button onClick={() => scrollTo('courses')} className="hover:text-amber-300 transition-colors flex items-center gap-1 min-h-[44px] py-2 cursor-pointer">
                   <ChevronRight className="w-3 h-3 text-stone-600" />
                   <span>B.Sc. Home Science (Food & Nutrition)</span>
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollTo('courses')} className="hover:text-amber-300 transition-colors flex items-center gap-1 cursor-pointer">
+                <button onClick={() => scrollTo('courses')} className="hover:text-amber-300 transition-colors flex items-center gap-1 min-h-[44px] py-2 cursor-pointer">
                   <ChevronRight className="w-3 h-3 text-stone-600" />
                   <span>B.A. (Bachelor of Arts - ३-वर्षीय)</span>
                 </button>
@@ -142,11 +142,11 @@ export const Footer: React.FC<FooterProps> = ({
             <h5 className="font-bold text-amber-400 uppercase tracking-wider text-xs border-b border-stone-800 pb-2">
               Our Other Websites
             </h5>
-            <ul className="space-y-2 text-stone-400">
-              <li><a href="https://dayanandlaw.devs.surf/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-300 transition-colors flex items-center gap-1"><ExternalLink className="w-3 h-3 text-stone-600" /><span>Dayanand Law</span></a></li>
-              <li><a href="https://studysharda.blogspot.com/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-300 transition-colors flex items-center gap-1"><ExternalLink className="w-3 h-3 text-stone-600" /><span>Sharda Study</span></a></li>
-              <li><a href="https://dscsupport.devs.surf/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-300 transition-colors flex items-center gap-1"><ExternalLink className="w-3 h-3 text-stone-600" /><span>DSC Support</span></a></li>
-              <li><a href="https://pcrepair.devs.surf/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-300 transition-colors flex items-center gap-1"><ExternalLink className="w-3 h-3 text-stone-600" /><span>PC Repair</span></a></li>
+            <ul className="space-y-1 text-stone-300">
+              <li><a href="https://dayanandlaw.devs.surf/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-300 transition-colors flex items-center gap-1 min-h-[44px] py-2"><ExternalLink className="w-3 h-3 text-stone-600" /><span>Dayanand Law</span></a></li>
+              <li><a href="https://studysharda.blogspot.com/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-300 transition-colors flex items-center gap-1 min-h-[44px] py-2"><ExternalLink className="w-3 h-3 text-stone-600" /><span>Sharda Study</span></a></li>
+              <li><a href="https://dscsupport.devs.surf/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-300 transition-colors flex items-center gap-1 min-h-[44px] py-2"><ExternalLink className="w-3 h-3 text-stone-600" /><span>DSC Support</span></a></li>
+              <li><a href="https://pcrepair.devs.surf/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-300 transition-colors flex items-center gap-1 min-h-[44px] py-2"><ExternalLink className="w-3 h-3 text-stone-600" /><span>PC Repair</span></a></li>
             </ul>
           </div>
 
@@ -155,39 +155,39 @@ export const Footer: React.FC<FooterProps> = ({
             <h5 className="font-bold text-amber-400 uppercase tracking-wider text-xs border-b border-stone-800 pb-2">
               Statutory Links
             </h5>
-            <ul className="space-y-1.5 text-stone-400">
+            <ul className="space-y-1.5 text-stone-300">
               <li>
-                <button onClick={onOpenDisclosures} className="hover:text-amber-300 transition-colors flex items-center gap-1 cursor-pointer">
+                <button onClick={onOpenDisclosures} className="hover:text-amber-300 transition-colors flex items-center gap-1 min-h-[44px] py-2 cursor-pointer">
                   <ChevronRight className="w-3 h-3 text-stone-600" />
                   <span>NCTE & PCI Approvals</span>
                 </button>
               </li>
               <li>
-                <button onClick={onOpenGrievance} className="hover:text-amber-300 transition-colors flex items-center gap-1 cursor-pointer text-red-400 font-semibold">
+                <button onClick={onOpenGrievance} className="hover:text-amber-300 transition-colors flex items-center gap-1 min-h-[44px] py-2 cursor-pointer text-red-300 font-semibold">
                   <ChevronRight className="w-3 h-3 text-red-600" />
                   <span>Anti-Ragging Squad</span>
                 </button>
               </li>
               <li>
-                <button onClick={onOpenGrievance} className="hover:text-amber-300 transition-colors flex items-center gap-1 cursor-pointer">
+                <button onClick={onOpenGrievance} className="hover:text-amber-300 transition-colors flex items-center gap-1 min-h-[44px] py-2 cursor-pointer">
                   <ChevronRight className="w-3 h-3 text-stone-600" />
                   <span>Internal Complaints (ICC)</span>
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollTo('notices')} className="hover:text-amber-300 transition-colors flex items-center gap-1 cursor-pointer">
+                <button onClick={() => scrollTo('notices')} className="hover:text-amber-300 transition-colors flex items-center gap-1 min-h-[44px] py-2 cursor-pointer">
                   <ChevronRight className="w-3 h-3 text-stone-600" />
                   <span>Examination Forms 2026</span>
                 </button>
               </li>
               <li>
-                <button onClick={onOpenProspectus} className="hover:text-amber-300 transition-colors flex items-center gap-1 cursor-pointer">
+                <button onClick={onOpenProspectus} className="hover:text-amber-300 transition-colors flex items-center gap-1 min-h-[44px] py-2 cursor-pointer">
                   <ChevronRight className="w-3 h-3 text-stone-600" />
                   <span>Scholarship & Fee Norms</span>
                 </button>
               </li>
               <li>
-                <button onClick={onOpenDisclosures} className="hover:text-amber-300 transition-colors flex items-center gap-1 cursor-pointer">
+                <button onClick={onOpenDisclosures} className="hover:text-amber-300 transition-colors flex items-center gap-1 min-h-[44px] py-2 cursor-pointer">
                   <ChevronRight className="w-3 h-3 text-stone-600" />
                   <span>RTI Act Disclosures</span>
                 </button>
@@ -200,7 +200,7 @@ export const Footer: React.FC<FooterProps> = ({
             <h5 className="font-bold text-amber-400 uppercase tracking-wider text-xs border-b border-stone-800 pb-2">
               Campus Administrative Desk
             </h5>
-            <div className="space-y-2.5 text-stone-400 text-[11px]">
+            <div className="space-y-2.5 text-stone-300 text-xs">
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-red-500 shrink-0 mt-0.5" />
                 <span>{INSTITUTE_DETAILS.address}</span>
@@ -217,7 +217,7 @@ export const Footer: React.FC<FooterProps> = ({
                   {INSTITUTE_DETAILS.email}
                 </a>
               </div>
-              <div className="pt-2 text-[10px] text-stone-500">
+              <div className="pt-2 text-xs text-stone-300">
                 National Anti-Ragging Helpline (24x7): <strong className="text-red-400">1800-180-5522</strong>
               </div>
             </div>
@@ -225,18 +225,18 @@ export const Footer: React.FC<FooterProps> = ({
         </div>
 
         {/* Bottom Copyright and Verification Strip */}
-        <div className="mt-12 pt-6 border-t border-stone-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-stone-500 text-[11px]">
+        <div className="mt-12 pt-6 border-t border-stone-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-stone-300 text-xs">
           <div>
             © {new Date().getFullYear()} Fakirchand Vidyapeeth Educational Institute. All Rights Reserved.
           </div>
           <div className="flex flex-wrap items-center gap-4">
-            <button onClick={onOpenDisclosures} className="hover:text-stone-300 underline cursor-pointer">
+            <button onClick={onOpenDisclosures} className="hover:text-white underline min-h-[44px] px-1 py-2 cursor-pointer">
               Privacy Policy & Terms
             </button>
-            <button onClick={onOpenDisclosures} className="hover:text-stone-300 underline cursor-pointer">
+            <button onClick={onOpenDisclosures} className="hover:text-white underline min-h-[44px] px-1 py-2 cursor-pointer">
               NCTE, PCI & UGC Compliance
             </button>
-            <button onClick={onOpenGrievance} className="hover:text-stone-300 underline cursor-pointer">
+            <button onClick={onOpenGrievance} className="hover:text-white underline min-h-[44px] px-1 py-2 cursor-pointer">
               Grievance Officer
             </button>
           </div>
