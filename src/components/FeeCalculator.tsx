@@ -67,10 +67,11 @@ export const FeeCalculator: React.FC<FeeCalculatorProps> = ({
           <div className="lg:col-span-7 bg-white p-6 sm:p-8 rounded-2xl border border-stone-200 shadow-sm space-y-6">
             {/* Step 1: Program Choice */}
             <div>
-              <label className="block text-xs font-bold uppercase text-stone-700 tracking-wider mb-2">
+              <label htmlFor="fee-course-select" className="block text-xs font-bold uppercase text-stone-700 tracking-wider mb-2">
                 {isHindi ? "१. पाठ्यक्रम का चयन करें (Select Program)" : "1. Select Academic Program"}
               </label>
               <select
+                id="fee-course-select"
                 value={selectedCourseId}
                 onChange={(e) => setSelectedCourseId(e.target.value)}
                 className="w-full px-4 py-3 rounded-lg border border-stone-300 bg-stone-50 text-stone-900 text-sm font-medium focus:ring-2 focus:ring-red-800 focus:outline-none"
