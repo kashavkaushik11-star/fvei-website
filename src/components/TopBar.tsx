@@ -76,10 +76,10 @@ export const TopBar: React.FC<TopBarProps> = ({
             <div className="flex items-center border border-stone-700 rounded bg-stone-800 p-0.5 ml-2">
               <button
                 onClick={() => setIsHindi(false)}
-                className={`px-2 py-0.5 rounded text-[11px] font-medium transition-colors ${
+                className={`px-3 min-h-[44px] rounded text-[11px] font-medium transition-colors ${
                   !isHindi
                     ? 'bg-amber-800 text-white font-semibold'
-                    : 'text-stone-400 hover:text-stone-200'
+                    : 'text-stone-200 hover:text-white'
                 }`}
               >
                 English
