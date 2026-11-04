@@ -88,7 +88,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isHindi }) => {
                   <p className="text-xs sm:text-sm font-semibold text-stone-900 mt-0.5">
                     {INSTITUTE_DETAILS.address}
                   </p>
-                  <span className="text-[11px] text-stone-500">Opposite District Administrative Enclave</span>
+                  
                 </div>
               </div>
 
@@ -146,12 +146,12 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isHindi }) => {
                 </span>
               </div>
               <p className="text-xs text-stone-300 font-serif-body">
-                Situated on the Main Grand Trunk Highway Corridor, 10 minutes from Central Railway Junction and Bus Terminal. Regular city electric buses and college shuttle buses serve the campus.
+                Located at Village Shoulda on Garh Road, Meerut, Uttar Pradesh - 250106.
               </p>
               <div className="mt-4 pt-3 border-t border-stone-800 flex items-center justify-between text-xs">
-                <span className="text-amber-400 font-semibold">Coordinates: 28.883452° N, 77.8932637° E</span>
+                <span className="text-amber-400 font-semibold">Village Shoulda, Garh Road, Meerut</span>
                 <a
-                  href="https://www.google.com/maps/place/Sharda+group+of+Institutions/@28.883452,77.8742093,15z/data=!4m10!1m2!2m1!1sSHARDA+GROUP+OF+INSTITUTION!3m6!1s0x390c64b308829dd7:0x98b93614af6436a5!8m2!3d28.883452!4d77.8932637!15sChtTSEFSREEgR1JPVVAgT0YgSU5TVElUVVRJT05aHSIbc2hhcmRhIGdyb3VwIG9mIGluc3RpdHV0aW9ukgEXZWR1Y2F0aW9uYWxfaW5zdGl0dXRpb27gAQA!16s%2Fg%2F11b809js20?authuser=0&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D"
+                  href="https://www.google.com/maps/search/?api=1&query=Village+Shoulda%2C+Garh+Road%2C+Meerut%2C+Uttar+Pradesh+250106"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-stone-300 hover:text-white underline cursor-pointer"
