@@ -84,7 +84,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isHindi }) => {
                   <MapPin className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold uppercase text-stone-500 tracking-wider">Campus Address</h4>
+                  <h3 className="text-xs font-bold uppercase text-stone-700 tracking-wider">Campus Address</h3>
                   <p className="text-xs sm:text-sm font-semibold text-stone-900 mt-0.5">
                     {INSTITUTE_DETAILS.address}
                   </p>
@@ -97,7 +97,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isHindi }) => {
                   <Phone className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold uppercase text-stone-500 tracking-wider">Telephone & Helplines</h4>
+                  <h3 className="text-xs font-bold uppercase text-stone-700 tracking-wider">Telephone & Helplines</h3>
                   <div className="text-xs sm:text-sm font-semibold text-stone-900 mt-0.5">
                     {INSTITUTE_DETAILS.phone} / {INSTITUTE_DETAILS.tollFree}
                   </div>
@@ -110,7 +110,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isHindi }) => {
                   <Mail className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold uppercase text-stone-500 tracking-wider">Official Email</h4>
+                  <h3 className="text-xs font-bold uppercase text-stone-700 tracking-wider">Official Email</h3>
                   <div className="text-xs sm:text-sm font-semibold text-stone-900 mt-0.5">
                     {INSTITUTE_DETAILS.email}
                   </div>
@@ -123,7 +123,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isHindi }) => {
                   <Clock className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold uppercase text-stone-500 tracking-wider">Administrative Hours</h4>
+                  <h3 className="text-xs font-bold uppercase text-stone-700 tracking-wider">Administrative Hours</h3>
                   <div className="text-xs sm:text-sm font-semibold text-stone-900 mt-0.5">
                     {INSTITUTE_DETAILS.workingHours}
                   </div>
