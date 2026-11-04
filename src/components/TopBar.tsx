@@ -50,7 +50,7 @@ export const TopBar: React.FC<TopBarProps> = ({
 
           <a
             href={`mailto:${INSTITUTE_DETAILS.email}`}
-            className="hidden xl:flex items-center gap-1 text-stone-300 hover:text-amber-400 transition-colors"
+            className="hidden xl:flex min-h-[44px] items-center gap-1 text-stone-200 hover:text-amber-400 transition-colors"
           >
             <Mail className="w-3 h-3 text-amber-500" />
             <span>{INSTITUTE_DETAILS.email}</span>
@@ -59,7 +59,7 @@ export const TopBar: React.FC<TopBarProps> = ({
           <div className="flex items-center gap-3">
             <button
               onClick={onOpenProspectus}
-              className="hover:text-amber-400 text-stone-300 transition-colors flex items-center gap-1 cursor-pointer"
+              className="min-h-[44px] hover:text-amber-400 text-stone-200 transition-colors flex items-center gap-1 cursor-pointer"
             >
               <span>{isHindi ? "विवरणिका (Prospectus)" : "Prospectus 2026"}</span>
               <ExternalLink className="w-3 h-3" />
@@ -67,7 +67,7 @@ export const TopBar: React.FC<TopBarProps> = ({
 
             <button
               onClick={onOpenGrievance}
-              className="text-stone-300 hover:text-amber-400 transition-colors cursor-pointer"
+              className="min-h-[44px] text-stone-200 hover:text-amber-400 transition-colors cursor-pointer"
             >
               {isHindi ? "शिकायत निवारण (ICC/Anti-Ragging)" : "Grievance / Anti-Ragging"}
             </button>
@@ -86,10 +86,10 @@ export const TopBar: React.FC<TopBarProps> = ({
               </button>
               <button
                 onClick={() => setIsHindi(true)}
-                className={`px-2 py-0.5 rounded text-[11px] font-medium transition-colors ${
+                className={`px-3 min-h-[44px] rounded text-[11px] font-medium transition-colors ${
                   isHindi
                     ? 'bg-amber-800 text-white font-semibold'
-                    : 'text-stone-400 hover:text-stone-200'
+                    : 'text-stone-200 hover:text-white'
                 }`}
               >
                 हिन्दी
