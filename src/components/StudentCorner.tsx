@@ -49,7 +49,7 @@ export const StudentCorner: React.FC<StudentCornerProps> = ({ isHindi, onOpenGri
             </div>
             <button
               onClick={onOpenGrievance}
-              className="mt-4 text-xs font-bold text-red-800 hover:underline text-left cursor-pointer"
+              className="mt-4 min-h-[44px] px-2 py-2 text-xs font-bold text-red-800 hover:underline text-left cursor-pointer"
             >
               {isHindi ? "ऑनलाइन शिकायत दर्ज करें →" : "File Online Grievance →"}
             </button>
