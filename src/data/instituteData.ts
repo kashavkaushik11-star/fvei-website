@@ -244,7 +244,7 @@ export const LEADERSHIP = [
     title: "Visionary Educationist & Social Reformer",
     hindiName: "स्व. पं. फ़कीरचंद जी",
     quote: "True education is the illumination that enables youth to serve society, lead with moral character, and spread knowledge to every home.",
-    image: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&q=80&w=600"
+    image: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&q=65&w=320"
   },
   {
     role: "Chairman / President's Desk",
@@ -252,7 +252,7 @@ export const LEADERSHIP = [
     title: "M.A., M.Ed., Ph.D., Eminent Educationist & Society President",
     hindiName: "डॉ. हरीश चंद्र शर्मा",
     quote: "At Fakirchand Vidyapeeth, we take immense pride in shaping skilled teachers, certified healthcare pharmacists, and accomplished scholars who transform rural and urban communities.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600"
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=65&w=320"
   },
   {
     role: "Principal's Desk",
@@ -260,7 +260,7 @@ export const LEADERSHIP = [
     title: "M.Sc., M.Ed., Ph.D. in Education, Gold Medalist",
     hindiName: "प्रो. (डॉ.) वंदना मिश्रा",
     quote: "Our institution offers a harmonious blend of teacher education, pharmaceutical training, home science laboratories, and liberal arts supported by modern technology and dedicated mentoring.",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=600"
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=65&w=320"
   }
 ];
 
@@ -274,7 +274,7 @@ export const FACULTY: FacultyMember[] = [
     experience: '22+ Years',
     specialization: 'Educational Pedagogy, Curriculum Design & Child Psychology',
     email: 'kahav.kaushikk11@gmail.com',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400'
+    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=65&w=240'
   },
   {
     id: 'f-02',
@@ -285,7 +285,7 @@ export const FACULTY: FacultyMember[] = [
     experience: '19+ Years',
     specialization: 'Elementary Education, Micro-Teaching & Action Research',
     email: 'kahav.kaushikk11@gmail.com',
-    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=400'
+    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=65&w=240'
   },
   {
     id: 'f-03',
@@ -296,7 +296,7 @@ export const FACULTY: FacultyMember[] = [
     experience: '14+ Years',
     specialization: 'Drug Formulation, Clinical Pharmacology & Hospital Pharmacy',
     email: 'kahav.kaushikk11@gmail.com',
-    image: 'https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=400'
+    image: 'https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=65&w=240'
   },
   {
     id: 'f-04',
@@ -307,7 +307,7 @@ export const FACULTY: FacultyMember[] = [
     experience: '16+ Years',
     specialization: 'Clinical Dietetics, Therapeutic Nutrition & Textile Science',
     email: 'kahav.kaushikk11@gmail.com',
-    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=400'
+    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=65&w=240'
   },
   {
     id: 'f-05',
@@ -318,7 +318,7 @@ export const FACULTY: FacultyMember[] = [
     experience: '17+ Years',
     specialization: 'Modern Hindi Literature, Indian Political System & Public Policy',
     email: 'kahav.kaushikk11@gmail.com',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=400'
+    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=65&w=240'
   },
   {
     id: 'f-06',
@@ -329,7 +329,7 @@ export const FACULTY: FacultyMember[] = [
     experience: '8+ Years',
     specialization: 'Pharmaceutical Analysis, Pharmacognosy & Quality Control',
     email: 'kahav.kaushikk11@gmail.com',
-    image: 'https://images.unsplash.com/photo-1580894732444-8ecded7900cd?auto=format&fit=crop&q=80&w=400'
+    image: 'https://images.unsplash.com/photo-1580894732444-8ecded7900cd?auto=format&fit=crop&q=65&w=240'
   },
   {
     id: 'f-07',
@@ -340,7 +340,7 @@ export const FACULTY: FacultyMember[] = [
     experience: '10+ Years',
     specialization: 'Early Childhood Education, Inclusive Pedagogy & Counseling',
     email: 'kahav.kaushikk11@gmail.com',
-    image: 'https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&q=80&w=400'
+    image: 'https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&q=65&w=240'
   },
   {
     id: 'f-08',
@@ -351,7 +351,7 @@ export const FACULTY: FacultyMember[] = [
     experience: '9+ Years',
     specialization: 'Apparel Designing, Fabric Printing & Resource Management',
     email: 'kahav.kaushikk11@gmail.com',
-    image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=400'
+    image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=65&w=240'
   }
 ];
 
@@ -457,21 +457,21 @@ export const TESTIMONIALS = [
     batch: "B.Ed. Batch of 2022",
     designation: "Government TGT Teacher (Basic Shiksha Parishad)",
     quote: "The rigorous practice teaching and special CTET coaching sessions at Fakirchand Vidyapeeth helped me clear both CTET and Super TET on my first attempt. Today, I am proudly serving as a government teacher.",
-    avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200"
+    avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=60&w=120"
   },
   {
     name: "Mohit Verma",
     batch: "D.Pharma Batch of 2023",
     designation: "Registered Pharmacist & Medical Store Owner",
     quote: "The modern pharmacy labs and practical training under Dr. Vivek Sharma gave me total confidence in pharmaceutical formulation and dispensing. The institute facilitated my state pharmacy council registration smoothly.",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200"
+    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=60&w=120"
   },
   {
     name: "Pooja Kashyap",
     batch: "B.Sc. Home Science Batch of 2024",
     designation: "Clinical Nutritionist at District Healthcare Hospital",
     quote: "The advanced food science laboratory, bakery training, and community nutrition camps in nearby villages equipped me with real clinical knowledge. Fakirchand Vidyapeeth is truly the best institute in the region.",
-    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200"
+    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=60&w=120"
   }
 ];
 
