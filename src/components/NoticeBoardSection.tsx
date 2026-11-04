@@ -55,7 +55,7 @@ export const NoticeBoardSection: React.FC<NoticeBoardSectionProps> = ({
               placeholder={isHindi ? "सूचना खोजें (कीवर्ड, संदर्भ सं.)..." : "Search notices, circulars, dispatch no..."}
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full pl-9 pr-4 py-2 rounded-lg border border-stone-300 text-xs sm:text-sm text-stone-800 focus:outline-none focus:ring-2 focus:ring-red-900 bg-stone-50"
+              className="w-full min-h-[44px] pl-9 pr-4 py-2 rounded-lg border border-stone-300 text-xs sm:text-sm text-stone-800 focus:outline-none focus:ring-2 focus:ring-red-900 bg-stone-50"
             />
           </div>
 
@@ -65,7 +65,7 @@ export const NoticeBoardSection: React.FC<NoticeBoardSectionProps> = ({
               <button
                 key={cat}
                 onClick={() => setSelectedCategory(cat)}
-                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors cursor-pointer ${
+                className={`px-3 py-2 min-h-[44px] rounded-lg text-xs font-medium transition-colors cursor-pointer ${
                   selectedCategory === cat
                     ? 'bg-red-900 text-white font-semibold'
                     : 'bg-stone-100 text-stone-600 hover:bg-stone-200 hover:text-stone-900'
@@ -88,7 +88,7 @@ export const NoticeBoardSection: React.FC<NoticeBoardSectionProps> = ({
                   setSearchTerm('');
                   setSelectedCategory('All');
                 }}
-                className="mt-3 text-xs text-red-900 hover:underline font-bold"
+                className="mt-3 min-h-[44px] px-3 py-2 text-xs text-red-900 hover:underline font-bold"
               >
                 Reset filters
               </button>
@@ -98,7 +98,7 @@ export const NoticeBoardSection: React.FC<NoticeBoardSectionProps> = ({
               <div
                 key={notice.id}
                 onClick={() => onSelectNotice(notice)}
-                className="group bg-white p-5 rounded-xl border border-stone-200 hover:border-amber-500/70 shadow-sm hover:shadow-md transition-all flex flex-col md:flex-row items-start md:items-center justify-between gap-4 cursor-pointer"
+                role="button"\n                tabIndex={0}\n                onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); onSelectNotice(notice); } }}\n                className="group bg-white p-5 rounded-xl border border-stone-200 hover:border-amber-500/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-800 shadow-sm hover:shadow-md transition-all flex flex-col md:flex-row items-start md:items-center justify-between gap-4 cursor-pointer"
               >
                 <div className="flex items-start gap-4">
                   {/* Date badge */}
@@ -109,7 +109,7 @@ export const NoticeBoardSection: React.FC<NoticeBoardSectionProps> = ({
                     <span className="block text-lg font-extrabold text-stone-900 font-display">
                       {notice.date.split(' ')[0]}
                     </span>
-                    <span className="block text-[10px] text-stone-500">
+                    <span className="block text-[11px] font-medium text-stone-700">
                       {notice.date.split(' ')[2]}
                     </span>
                   </div>
@@ -120,7 +120,7 @@ export const NoticeBoardSection: React.FC<NoticeBoardSectionProps> = ({
                       <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-stone-100 text-stone-700">
                         {notice.category}
                       </span>
-                      <span className="text-[11px] text-stone-400 font-mono">
+                      <span className="text-[11px] text-stone-700 font-mono">
                         Ref: {notice.dispatchNo}
                       </span>
                       {notice.isNew && (
@@ -132,7 +132,7 @@ export const NoticeBoardSection: React.FC<NoticeBoardSectionProps> = ({
                     <h3 className="text-sm sm:text-base font-bold text-stone-900 group-hover:text-red-900 transition-colors font-display">
                       {isHindi && notice.hindiTitle ? notice.hindiTitle : notice.title}
                     </h3>
-                    <p className="text-xs text-stone-500 line-clamp-1 mt-1 font-serif-body">
+                    <p className="text-xs text-stone-700 line-clamp-1 mt-1 font-serif-body">
                       {notice.content}
                     </p>
                   </div>
@@ -140,7 +140,7 @@ export const NoticeBoardSection: React.FC<NoticeBoardSectionProps> = ({
 
                 {/* Right Action */}
                 <div className="shrink-0 flex items-center gap-2 self-end md:self-center">
-                  <span className="text-xs font-bold text-red-900 group-hover:underline flex items-center gap-1">
+                  <span className="text-xs font-bold text-red-900 group-hover:underline flex items-center gap-1 min-h-[44px] px-2">
                     <span>{isHindi ? "विस्तृत परिपत्र पढ़ें" : "View Circular"}</span>
                     <ExternalLink className="w-3.5 h-3.5" />
                   </span>
