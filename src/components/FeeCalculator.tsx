@@ -72,6 +72,7 @@ export const FeeCalculator: React.FC<FeeCalculatorProps> = ({
               </label>
               <select
                 id="fee-course-select"
+                aria-label={isHindi ? "पाठ्यक्रम का चयन करें" : "Select academic program"}
                 value={selectedCourseId}
                 onChange={(e) => setSelectedCourseId(e.target.value)}
                 className="w-full px-4 py-3 rounded-lg border border-stone-300 bg-stone-50 text-stone-900 text-sm font-medium focus:ring-2 focus:ring-red-800 focus:outline-none"
