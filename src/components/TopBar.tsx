@@ -78,7 +78,7 @@ export const TopBar: React.FC<TopBarProps> = ({
                 onClick={() => setIsHindi(false)}
                 className={`px-2 py-0.5 rounded text-[11px] font-medium transition-colors ${
                   !isHindi
-                    ? 'bg-amber-600 text-white font-semibold'
+                    ? 'bg-amber-800 text-white font-semibold'
                     : 'text-stone-400 hover:text-stone-200'
                 }`}
               >
