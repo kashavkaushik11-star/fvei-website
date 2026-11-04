@@ -230,9 +230,10 @@ export const Footer: React.FC<FooterProps> = ({
             © {new Date().getFullYear()} Fakirchand Vidyapeeth Educational Institute. All Rights Reserved.
           </div>
           <div className="flex flex-wrap items-center gap-4">
-            <button onClick={onOpenDisclosures} className="hover:text-white underline min-h-[44px] px-1 py-2 cursor-pointer">
-              Privacy Policy & Terms
-            </button>
+            <a href="/privacy-policy.html" className="hover:text-white underline min-h-[44px] px-1 py-2 inline-flex items-center">Privacy Policy</a>
+            <a href="/terms.html" className="hover:text-white underline min-h-[44px] px-1 py-2 inline-flex items-center">Terms of Use</a>
+            <a href="/disclaimer.html" className="hover:text-white underline min-h-[44px] px-1 py-2 inline-flex items-center">Disclaimer</a>
+            <a href="/contact.html" className="hover:text-white underline min-h-[44px] px-1 py-2 inline-flex items-center">Contact</a>
             <button onClick={onOpenDisclosures} className="hover:text-white underline min-h-[44px] px-1 py-2 cursor-pointer">
               NCTE, PCI & UGC Compliance
             </button>
